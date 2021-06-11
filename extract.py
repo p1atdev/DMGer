@@ -7,4 +7,4 @@ for f in sys.argv[1:]:
     print(f)
     os.system("7zz x " + f + " -o/Users/$(whoami)/Downloads")
     
-print("Finished")
+print("DMG extracting finished :)")
