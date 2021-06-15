@@ -7,7 +7,13 @@ Bypass restricting DMG file extracting...
 - 7zip
 - 動くターミナル
 
-# How to use
+# 注意
+中で使用されている7zipのコマンドは環境によって異なるので、各自変更してください
+
+# ToDo
+- 環境の7zipコマンドを尋ねて自動で変更できるように
+
+# How to use :extraction.py & chmod.py
 ターミナルで`extract.py`を以下のように実行します
 ```bash
 python3 /path/to/extract.py /path/to/googlechrome.dmg
@@ -21,6 +27,13 @@ python3 /path/to/chmod.py /path/to/extraced.app
 するとアプリが起動できるようになります。
 
 このあとは自由に名前を変えたり自分の好きなフォルダに移したりしちゃいましょう！
+
+# How to use: dmger.py
+以下を実行
+```
+python3 dmger /path/to/yourdmg.dmg
+```
+超簡潔！
 
 # License
 手法の発見者、著作者はME氏にあります。
