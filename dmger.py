@@ -21,7 +21,7 @@ for f in sys.argv[1:]:
     apppath = apppath.replace(" ", "\ ")
     contents = apppath + "/Contents/MacOS/*"
     print(apppath)
-    os.system("chmod 777 " + contents)
+    os.system("chmod -R 777 " + contents)
     print("mv "+ apppath + " " + os.path.dirname(f) + "/" +  os.path.basename(apppath))
     os.system("mv "+ apppath + " " + os.path.dirname(f) + "/")
     os.system("rm -r /tmp/" + base)
