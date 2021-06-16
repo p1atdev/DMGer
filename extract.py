@@ -1,6 +1,5 @@
 import sys
 import os
-import glob
 
 for f in sys.argv[1:]:
     f = f.replace(" ", "\ ")
