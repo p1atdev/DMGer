@@ -1,4 +1,4 @@
-# DaMaGe
+# DMGer
 Bypass restricting DMG file extracting...
 制限マックのDMGが解凍できないという制限を回避することができます
 
