@@ -22,8 +22,9 @@ for f in sys.argv[1:]:
     # contents = apppath + "/Contents/MacOS/*"
     print(apppath)
     os.system("chmod -R 777 " + apppath)
-    print("mv "+ apppath + " " + os.path.dirname(f) + "/" +  os.path.basename(apppath))
-    os.system("mv "+ apppath + " " + os.path.dirname(f) + "/")
+    print("mv " + apppath + " " + os.path.dirname(f) +
+          "/" + os.path.basename(apppath))
+    os.system("mv " + apppath + " " + os.path.dirname(f) + "/")
     os.system("rm -r /tmp/" + base)
-    
+
 print("DMG extraction finished :)")
